@@ -6,15 +6,11 @@ INSERT INTO stadium(name, created_at) VALUES('사직야구장', '1985-10-14');<b
 INSERT INTO stadium(name, created_at) VALUES('고척스카이돔', '2015-09-15');<br>
 INSERT INTO stadium(name, created_at) VALUES('광주기아챔피언스필드', '2014-03-08');<br>
 
-select * from stadium;
-
 
 /* 팀 -> 3개 */<br>
 INSERT INTO team(stadium_id, name, created_at) VALUES(1, '롯데', '1975-01-01');<br>
 INSERT INTO team(stadium_id, name, created_at) VALUES(1, '키움', '2008-01-01');<br>
 INSERT INTO team(stadium_id, name, created_at) VALUES(1, '기아', '1982-01-01');<br>
-
-select * from team;
 
 
 /* 플레이어(선수) -> 3개 */
@@ -50,3 +46,9 @@ INSERT INTO player(team_id, name, position, created_at) VALUES(3, '박찬호', '
 INSERT INTO player(team_id, name, position, created_at) VALUES(3, '고종욱', '좌익수', now());<br>
 INSERT INTO player(team_id, name, position, created_at) VALUES(3, '김호령', '중견수', now());<br>
 INSERT INTO player(team_id, name, position, created_at) VALUES(3, '이우성', '우익수', now());<br>
+
+
+select * from stadium;<br>
+select * from team;<br>
+select * from player;<br>
+select * from out_player;<br>
