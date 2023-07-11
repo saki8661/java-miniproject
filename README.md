@@ -18,7 +18,7 @@ select * from team;
 
 
 /* 플레이어(선수) -> 3개 */
--- 1번팀 롯데
+-- 1번팀 롯데<br>
 INSERT INTO player(team_id, name, position, created_at) VALUES(1, '손성빈', '포수', now());<br>
 INSERT INTO player(team_id, name, position, created_at) VALUES(1, '고승민', '1루수', now());<br>
 INSERT INTO player(team_id, name, position, created_at) VALUES(1, '박승욱', '2루수', now());<br>
